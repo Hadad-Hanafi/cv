@@ -1,0 +1,96 @@
+   body{
+       margin: 0px;
+       padding: 0px;
+   }
+   
+    .left-container{
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: #02735E;
+    }
+    
+    .poto-contact{
+        position: absolute;
+        top: 100px;
+        text-align: center;
+    }
+    
+    .poto{
+        width: 50%;
+        border-radius: 50%;
+    }
+    
+    .buton{
+        width: 50%;
+        border-radius: 14px;
+        margin-bottom: 14px;
+        font-size: 1,1rem;
+        font-weight: bold;
+        padding: 10px;
+    }
+    
+    .buton:hover{
+        background-color: black;
+        color: white;
+        transition: 1s;
+    }
+    
+    .right-contain{
+        position: absolute;
+        left: 400px;
+    }
+    
+    .top-bar{
+        padding-top: 50px;
+        padding-left: 100px;
+    }
+    
+    .title{
+        font-style: italic;
+        font-size: 1,3rem;
+    }
+    .list-menu{
+        float: right;
+        padding-right: 50px;
+    }
+    
+    .menu{
+        font-size:1,1rem ;
+        padding: 0 15px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    #profile{
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+    
+    #about{
+        padding-top: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    #skill{
+        padding-top: 250px;
+        padding-left: 100px;
+    }
+    
+    #contact{
+        padding-top: 250px;
+        padding-left: 100px;
+    }
+    
+    #footer{
+        padding-top: 250px;
+        text-align: center;
+    }
+    
+    p,li{
+        line-height:200%;
+    }
